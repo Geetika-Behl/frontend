@@ -1,0 +1,131 @@
+/* Container styling */
+.admin-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.admin-pannel{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.admin-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.admin-table th,
+.admin-table td {
+    border: 1px solid #e2e8f0;
+    padding: 12px;
+}
+
+.admin-table th {
+    background-color: #f7fafc;
+    font-weight: bold;
+}
+
+/* Report image styling */
+.report-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Button styling */
+.btn-approve {
+    background-color: #38a169; /* Green */
+    color: #ffffff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.3s;
+}
+
+.btn-approve:hover {
+    background-color: #2f855a;
+}
+
+.btn-reject {
+    background-color: #e53e3e; /* Red */
+    color: #ffffff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-reject:hover {
+    background-color: #c53030;
+}
+
+/* Loading text styling */
+span {
+    font-size: 14px;
+    color: #4a5568; /* Gray */
+}
+
+.btn-delete {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-delete:hover {
+    background-color: darkred;
+  }
+  .location-link {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.location-link:hover {
+    color: darkblue;
+}
+.btn-map {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-map:hover {
+    background-color: #0056b3;
+}
+
+.map-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+  

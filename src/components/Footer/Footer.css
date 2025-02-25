@@ -1,0 +1,202 @@
+.footer-black{
+    background-color: black ;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+.footer-logo{
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: Outfit;
+    font-size : 42px; 
+    font-weight: 500;
+}
+.para {
+    color : #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+.footer-menu{
+    font-family: poppins;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    color: #a08e8e;
+}
+
+.footer-menu li:hover{
+    color: #fff;
+}
+.input{
+    border: 1px solid #fff;
+    border-radius: 15px;
+    background-color: black;
+    height: 45px;
+    width: 195px;
+    margin-right: 20px;
+    padding-left: 7px;
+    font-family: poppins;
+    color: #fff;
+}
+.btn{
+    background-color: #fff;
+    border-radius: 15px;
+    height: 45px;
+    width: 90px;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-logo{
+    gap: 80px;
+    margin-right: 30px;
+}
+.social-logo img{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    
+}
+.footer-white{
+    height: 50px;
+    background-color: #fff;
+    padding-left: 20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.terms{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.terms li:hover{
+    color: orangered;
+}
+.social-links p{
+    color : #fff;
+    margin-bottom: 30px;
+    margin-left: 70px;
+}
+.country{
+    color:#ada6a6;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.contact ul {
+    color: #fff;
+    list-style: none;
+}
+.mail{
+    margin-top: 20px;
+}
+.mailimage{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+.btn1{
+    background-color: red ;
+    border-radius: 15px;
+    height: 45px;
+    width: 90px;
+}
+/* Base styles for larger screens remain unchanged */
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .footer-black {
+        padding-right: 15px;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+    
+    .footer-logo {
+        font-size: 32px;
+    }
+    
+    .para {
+        font-size: 18px;
+    }
+    
+    .footer-menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .input {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    
+    .btn {
+        width: 100%;
+    }
+    
+    .social-logo {
+        gap: 40px;
+    }
+    
+    .social-logo img {
+        height: 40px;
+        width: 40px;
+    }
+    
+    .footer-white {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .terms {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .mail {
+        text-align: center;
+    }
+}
+
+/* Additional styles for very small screens */
+@media (max-width: 480px) {
+    .footer-logo {
+        font-size: 28px;
+    }
+    
+    .para {
+        font-size: 16px;
+    }
+    
+    .footer-menu {
+        gap: 10px;
+    }
+    
+    .social-logo {
+        gap: 20px;
+    }
+    
+    .social-logo img {
+        height: 30px;
+        width: 30px;
+    }
+}

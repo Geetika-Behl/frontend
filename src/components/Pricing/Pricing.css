@@ -1,0 +1,130 @@
+
+
+.pricing-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fef3f3;
+  }
+  
+  .pricing-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #d84b4b;
+  }
+  
+  .pricing-description {
+    font-size: 1rem;
+    
+    color: #555;
+    margin: auto;
+    max-width: 600px;
+    margin-bottom: 2rem;
+  }
+  
+  .pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .pricing-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding: 1.5rem;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .pricing-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .pricing-card.popular {
+    border: 2px solid #d84b4b;
+    position: relative;
+  }
+  
+  .most-popular {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #d84b4b;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+  }
+  
+  .plan-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .plan-price {
+    font-size: 1.5rem;
+    color: #d84b4b;
+    margin-bottom: 0.5rem;
+  }
+  
+  .plan-price span {
+    font-size: 0.75rem;
+    color: #777;
+  }
+  
+  .plan-subtitle {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 1rem;
+  }
+  
+  .plan-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .plan-features li {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .plan-button {
+    background: #d84b4b;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .plan-button:hover {
+    background: #b13a3a;
+  }
+  
+  .no-credit {
+    font-size: 0.75rem;
+    color: #777;
+    margin-top: 0.5rem;
+  }
+  .check-icon{
+    font-size: 1.5rem;
+    color: #d84b4b;
+    width: 2rem;
+    height: 2rem;
+   
+  }
+  
+ 
+  

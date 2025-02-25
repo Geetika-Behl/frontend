@@ -1,0 +1,67 @@
+.FAQ-main {
+    padding: 5rem 13rem;
+    background-color: #f8f1e5; /* Soft beige color */
+    background-image: 
+      linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.5) 25%,
+        transparent 25%
+      ),
+      linear-gradient(
+        225deg,
+        rgba(255, 255, 255, 0.5) 25%,
+        transparent 25%
+      ),
+      linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.5) 25%,
+        transparent 25%
+      ),
+      linear-gradient(
+        315deg,
+        rgba(255, 255, 255, 0.5) 25%,
+        transparent 25%
+      );
+    background-size: 40px 40px; /* Creates the subtle pattern */
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .FAQ-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .FAQ-item {
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 2rem;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .FAQ-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .FAQ-question:hover {
+    color: #d77a61;
+  }
+  
+  .FAQ-answer {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
