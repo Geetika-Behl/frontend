@@ -1,5 +1,5 @@
 import React from "react";
-import "./Faq.css";
+import "./FAQ.css";
 
 const faqData = [
   {
