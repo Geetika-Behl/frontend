@@ -36,7 +36,7 @@ function ReportSubmission() {
         formData.append('longitude', location.lng);
 
         try {
-            const response = await axios.post('http://localhost:5000/api/reports/submit', formData, {
+            const response = await axios.post('https://backend-0bq4.onrender.com/api/reports/submit', formData, {
                 headers: { 'Content-Type': 'multipart/form-data' },
             });
             alert(response.data.message);

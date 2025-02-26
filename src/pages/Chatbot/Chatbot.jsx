@@ -19,7 +19,7 @@ const Chatbot = () => {
     setInput("");
 
     try {
-      const response = await axios.post("http://localhost:5000/api/chatbot", {
+      const response = await axios.post("https://backend-0bq4.onrender.com/api/chatbot", {
         message: input,
       });
 

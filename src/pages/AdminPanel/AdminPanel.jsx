@@ -13,7 +13,7 @@ function AdminPanel() {
     useEffect(() => {
         const fetchReports = async () => {
             try {
-                const response = await axios.get("http://localhost:5000/api/reports/all");
+                const response = await axios.get("https://backend-0bq4.onrender.com/api/reports/all");
                 setReports(response.data);
             } catch (err) {
                 alert("Failed to fetch reports");
@@ -26,7 +26,7 @@ function AdminPanel() {
     const updateStatus = async (id, status) => {
         setLoading(true);
         try {
-            await axios.put(`http://localhost:5000/api/admin/update-status/${id}`, { status });
+            await axios.put(`https://backend-0bq4.onrender.com/api/admin/update-status/${id}`, { status });
             alert(`Report ${status}`);
             setReports(reports.map((report) => (report._id === id ? { ...report, status } : report)));
         } catch (err) {
@@ -41,7 +41,7 @@ function AdminPanel() {
 
         setLoading(true);
         try {
-            await axios.delete(`http://localhost:5000/api/admin/delete/${id}`);
+            await axios.delete(`https://backend-0bq4.onrender.com/api/admin/delete/${id}`);
             alert("Report deleted");
             setReports(reports.filter((report) => report._id !== id)); // Remove from state
         } catch (err) {
@@ -73,7 +73,7 @@ function AdminPanel() {
                                 <td>{report.description}</td>
                                 <td>
                                     <img
-                                        src={`http://localhost:5000/uploads/${report.image}`}
+                                        src={`https://backend-0bq4.onrender.com/uploads/${report.image}`}
                                         alt="Report"
                                         className="report-image"
                                     />

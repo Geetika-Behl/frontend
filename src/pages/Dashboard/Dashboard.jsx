@@ -16,7 +16,7 @@ function Dashboard() {
     useEffect(() => {
         const fetchReports = async () => {
             try {
-                const response = await axios.get('http://localhost:5000/api/reports/all');
+                const response = await axios.get('https://backend-0bq4.onrender.com/api/reports/all');
                 setReports(response.data);
 
                 // Generate zones (for simplicity, randomize development status)
@@ -66,7 +66,7 @@ function Dashboard() {
                             <div className="popup-content">
                                 <h3 className="popup-title">{report.description}</h3>
                                 <img
-                                    src={`http://localhost:5000/uploads/${report.image}`}
+                                    src={`https://backend-0bq4.onrender.com/uploads/${report.image}`}
                                     alt="Report"
                                     className="popup-image"
                                 />
